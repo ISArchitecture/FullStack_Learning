@@ -49,6 +49,8 @@ for (var i = 0; i < 100; i++) {
 }
 */
 
+
+/*
 var names = ["Angela", "Ben", "Jenny", "Michael", "Chole"];
 function whosPaying(names) {
   var randomIndex = Math.floor(Math.random() * names.length);
@@ -77,4 +79,5 @@ function fizzBuzz() {
 for (var i = 0; i < 100; i++) {
   fizzBuzz();
 }
+*/
 
