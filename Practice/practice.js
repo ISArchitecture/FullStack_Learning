@@ -49,6 +49,8 @@ for (var i = 0; i < 100; i++) {
 }
 */
 
+
+/*
 var names = ["Angela", "Ben", "Jenny", "Michael", "Chole"];
 function whosPaying(names) {
   var randomIndex = Math.floor(Math.random() * names.length);
@@ -73,6 +75,10 @@ function fibonacciGenerator(n) {
     
     return output;
 }
+<<<<<<< HEAD
 fibonacciGenerator(5);
 console.log(output);
+=======
+*/
+>>>>>>> 2e2d48870b5f5c9cb0efd70dd71c8023f751a575
 
