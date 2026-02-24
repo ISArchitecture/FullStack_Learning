@@ -58,26 +58,27 @@ function whosPaying(names) {
   return selectedPerson + " is going to buy lunch today.";
 }
 
-var output = [];
-var count = 1;
-
-function fizzBuzz() {
-  if (count % 3 === 0 && count % 5 === 0) {
-    output.push("FizzBuzz");
-  } else if (count % 5 === 0) {
-    output.push("Buzz");
-  } else if (count % 3 === 0) {
-    output.push("Fizz");
-  } else {
-    output.push(count);
-  }
-  count++;
-  console.log(output);
+function fibonacciGenerator(n) {
+    var output = [];
+    
+    if (n === 1) {
+        output = [0];
+    } else if (n === 2) {
+        output = [0, 1];
+    } else {
+        output = [0, 1];
+        
+        for (var i = 2; i < n; i++) {
+            output.push(output[i - 2] + output[i - 1]);
+        }
+    }
+    
+    return output;
 }
-
-// Call it 100 times in one run
-for (var i = 0; i < 100; i++) {
-  fizzBuzz();
-}
+<<<<<<< HEAD
+fibonacciGenerator(5);
+console.log(output);
+=======
 */
+>>>>>>> 2e2d48870b5f5c9cb0efd70dd71c8023f751a575
 
