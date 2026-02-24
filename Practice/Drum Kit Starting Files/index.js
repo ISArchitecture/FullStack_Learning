@@ -57,7 +57,7 @@ function makeSound(key) {
     function buttonAnimation(currentKey) {
     var activeButton = document.querySelector("." + currentKey);
     activeButton.classList.add("pressed");
-    setTimeout(function() {
-        activeButton.classList.remove("pressed");
-    }, 100);
+    setTimeout(function() {      //This is used to remove the pressed class after 100 milliseconds
+        activeButton.classList.remove("pressed"); //This is used to remove the pressed class from the button
+    }, 100); //This is used to wait for 100 milliseconds before removing the pressed class
     }
