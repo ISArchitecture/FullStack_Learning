@@ -75,10 +75,13 @@ function fibonacciGenerator(n) {
     
     return output;
 }
+    /*
 <<<<<<< HEAD
 fibonacciGenerator(5);
 console.log(output);
 =======
 */
 >>>>>>> 2e2d48870b5f5c9cb0efd70dd71c8023f751a575
+
+
 
