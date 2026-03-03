@@ -1,0 +1,34 @@
+---
+description: Project context and decisions for FullStack_Learning
+alwaysApply: true
+---
+
+# FullStack_Learning Project Context
+
+## What's Been Done So Far
+
+### Structure
+- **Js/** – JavaScript (DOM, arrays, spread/rest, Drum Kit, Dice Roller, temp conversion)
+- **Angular/** – 01-starting-project, my-app, second-ng-app, third-ng-app, first-app-ngmodule
+- **Backend/** – 2.1 Using Node, 2.2 Native Modules, 2.3 NPM, 2.4 QR Code Project
+- **Practice/** – DOM Challenge, Drum Kit
+- **My Projects/** – Personal website, CV, Angela Yu course projects
+
+### Angular 01-starting-project
+- **Components**: header (header/header.component.ts), user (user/user.component.ts), app
+- **Header**: task-management-logo.png, "Easy Task", gradient styling
+- **Centering**: `:host { display: block; width: 100%; }` in header.component.css
+- **Component fix**: Use `styleUrl` (singular), not `styleUrls` – avoids "is not a module"
+- **main.ts**: Bootstraps AppComponent only; no child component imports
+- **Assets**: src/assets/
+
+### Backend
+- **2.1**: `node index.js`
+- **2.2**: fs with `'utf8'` for readFile (avoids Buffer)
+- **2.3**: superheros (one "o"), sillyname; consistent require or import
+- **2.4**: inquirer, qr-image; message.txt
+
+### Common Fixes
+- ng serve from project folder (has package.json)
+- tsc from folder with tsconfig.json
+- Git: `rm .git/index.lock` if needed
